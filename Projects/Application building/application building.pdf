@@ -1,0 +1,143 @@
+HOME PAGE
+============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+     <div class=""container>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid ">
+                <div class="col-10">
+                    <a class="navbar-brand" >Fertilizer Recommendation System</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                </div>
+              
+              <div class="collapse navbar-collapse col-1" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/prediction">Predict</a>
+                  </li>
+                  
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row mt-4">
+                <div class="content col-8 ">
+                    <h1 class="mb-4 mt-4">Fertilizers Recommendation System For Disease Prediction</h1>
+                    <p class="pdiv">
+                        Agriculture is the most important sector in today’s life. Most plants are affected by a wide variety of bacterial and fungal diseases. 
+                        Diseases on plants placed a major constraint on the production and a major threat to food security. 
+                        Hence, early and accurate identification of plant diseases is essential to ensure high quantity and best quality. 
+                        In recent years, the number of diseases on plants and the degree of harm caused has increased due to the variation in pathogen varieties, changes in cultivation methods, and inadequate plant protection techniques. 
+        
+                        An automated system is introduced to identify different diseases on plants by checking the symptoms shown on the leaves of the plant. Deep learning techniques are used to identify the diseases and suggest the precautions that can be taken for those diseases. 
+                    </p>
+    
+                </div>
+                <div class="img col-2 mt-4 ">
+                    <img src="i.jpeg" class="rounded float-right">
+                </div>
+               
+
+            </div>
+           
+          </div>
+      
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+PREDICT PAGE
+=============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+     <div class=""container>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid ">
+                <div class="col-10">
+                    <a class="navbar-brand" >Fertilizer Recommendation System</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                </div>
+              
+              <div class="collapse navbar-collapse col-1" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./predict.html">Predict</a>
+                  </li>
+                  
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+          
+                   <div >
+                    <img class="pimg" src="i4.jpeg" >
+        
+                   </div>
+                   <div class="dform ">
+                    <form class="f" action="/predict" method="post" enctype="multipart/form-data">
+                        <div class="form-group mt-4">
+                          <label for="type">Select Type</label>
+                          
+                          <input type="text" class="plant" id="type" name="plant" >
+                          
+                        <div class="form-group mt-4">
+                            <label for="myfile">Select a file</label>
+                            <br/>
+                            <br/>
+                            <input type="file" id="myfile" name="image">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary mt-4">Predict</button>
+                      </form>
+        
+                   </div>
+                    
+            
+          
+           
+          </div>
+      
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
