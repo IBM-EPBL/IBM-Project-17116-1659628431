@@ -56,8 +56,8 @@ def predict():
             print(df.iloc[preds[0]]['caution'])
         # return df.iloc[preds[0]]['caution']
         # return preds[0]
-        # print(request.form['plant'])
-        return "heeeee"
+         print(request.form['plant'])
+        #return "heeeee"
     
     return "hello"
 
