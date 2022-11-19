@@ -1,0 +1,20 @@
+.pdiv{
+    margin-top: 50px;
+  
+}
+.img{
+   position: absolute;
+   top:25%;
+   left:1000px;
+}
+.pimg{
+    margin-top:60px;
+    border-radius:10px;
+    width:50%;
+}
+.dform{
+    position:absolute;
+    top:20%;
+    left:850px;
+
+}
